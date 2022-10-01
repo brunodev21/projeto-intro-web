@@ -4,22 +4,30 @@
 }
 
 header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
     background-color: rgb(230, 136, 13);
     color: blue;
     border: 1px solid blue;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 400%;
 }
 
 main{
     width: center;
     text-align: center; 
-    height: 800px;   
-    padding:18px ;   
+    height: 1000px;   
+    padding: 18px ;  
 }
 
 section {
-    height: 10vh;
-    width: 32vw;
-    margin: 8px;
+    height: 15vh;
+    width: 25vw;
+    margin: 20px;
     padding: 36px;
 }
 
@@ -27,40 +35,78 @@ ul {
     list-style-type: none;
 }
 
-.Goku {
-    background-color: rgb(230, 136, 13);
-    color: blue;
-    border: 1px solid blue;
-    text-align: left;
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.Vegeta {
+#Goku {
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(230, 136, 13);
     color: blue;
     border: 1px solid blue;
-    text-align: left;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(./assets/goku.png.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-.Gohan {
+#Vegeta {
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(230, 136, 13);
     color: blue;
     border: 1px solid blue;
-    text-align: left;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(./assets/vegeta.png.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-.Freeza {
+#Gohan {
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(230, 136, 13);
     color: blue;
     border: 1px solid blue;
-    text-align: left;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(./assets/gohan.png.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#Freeza {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(230, 136, 13);
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    background-image: url(./assets/freeza.png.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
     background-color:rgb(230, 136, 13);
-    color: blue;
+    color: blue; 
     border: 1px solid blue;
-    text-align: center;
+    border-radius: 5px;
+    text-align: center;                                                    
     width: 100%;
     bottom: 0;
+    padding: 30px;
   }
+
 
